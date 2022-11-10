@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=2]
+[gd_scene load_steps=29 format=2]
 
 [ext_resource path="res://Sprites/Tiles/OverworldTileSet.tres" type="TileSet" id=1]
 [ext_resource path="res://Overworld/PondMan.gd" type="Script" id=2]
@@ -19,6 +19,7 @@
 [ext_resource path="res://Sprites/Animations/mc-idle-frame2.png" type="Texture" id=17]
 [ext_resource path="res://Sounds/Goofy-Mischief.mp3" type="AudioStream" id=18]
 [ext_resource path="res://Menus/Pause Menu/PauseMenu.tscn" type="PackedScene" id=19]
+[ext_resource path="res://Overworld/showtune-city-ROUGH.png" type="Texture" id=20]
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 319.797, 363.611 )
@@ -188,6 +189,14 @@ shape = SubResource( 7 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2( -204, -92.5 )
 shape = SubResource( 8 )
+
+[node name="Showtune-city-Rough" type="Sprite" parent="."]
+position = Vector2( 153, 71 )
+texture = ExtResource( 20 )
+
+[node name="Showtune-city-Rough2" type="Sprite" parent="."]
+position = Vector2( 1563, -402 )
+texture = ExtResource( 20 )
 
 [connection signal="draw" from="PondMan" to="PondMan" method="_on_PondMan_draw"]
 [connection signal="draw" from="PondMan/SpeechBubble" to="PondMan" method="_on_SpeechBubble_draw"]

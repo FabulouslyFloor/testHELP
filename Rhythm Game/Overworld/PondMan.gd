@@ -14,10 +14,15 @@ func _ready():
 #func _process(delta):
 #	pass
 
+# Pond man pond man living in the sea
+# k i s s i n g
+# First comes love
+# then comes marriage
+# and then the pond divorces you
+
 
 func _on_Area2D_body_entered(body):
 	get_node("SpeechBubble").show()
-	
 	
 
 
