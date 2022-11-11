@@ -25,4 +25,8 @@ func _on_startGame_pressed():
 
 func _on_quit_pressed():
 	get_tree().quit(0)
+
+# I repeat this is not a drill
+
 	print("U are a loser")
+
