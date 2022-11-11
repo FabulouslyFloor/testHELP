@@ -42,13 +42,13 @@ margin_bottom = 24.0
 margin_top = 34.0
 margin_right = 106.0
 margin_bottom = 54.0
-text = "Resume Game"
+text = "CMON LEZGOOO CHAD"
 
 [node name="QuitBtn" type="Button" parent="CenterContainer/VBoxContainer"]
 margin_top = 64.0
 margin_right = 106.0
 margin_bottom = 84.0
-text = "Quit"
+text = "NOOB"
 
 [connection signal="pressed" from="CenterContainer/VBoxContainer/ResumeBtn" to="." method="_on_ResumeBtn_pressed"]
 [connection signal="pressed" from="CenterContainer/VBoxContainer/QuitBtn" to="." method="_on_QuitBtn_pressed"]

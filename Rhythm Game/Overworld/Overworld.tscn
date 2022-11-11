@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=2]
+[gd_scene load_steps=30 format=2]
 
 [ext_resource path="res://Sprites/Tiles/OverworldTileSet.tres" type="TileSet" id=1]
 [ext_resource path="res://Overworld/PondMan.gd" type="Script" id=2]
@@ -19,6 +19,8 @@
 [ext_resource path="res://Sprites/Animations/mc-idle-frame2.png" type="Texture" id=17]
 [ext_resource path="res://Sounds/Goofy-Mischief.mp3" type="AudioStream" id=18]
 [ext_resource path="res://Menus/Pause Menu/PauseMenu.tscn" type="PackedScene" id=19]
+[ext_resource path="res://Overworld/CryCat.jpeg" type="Texture" id=20]
+[ext_resource path="res://Overworld/CoughCat.jpeg" type="Texture" id=21]
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 319.797, 363.611 )
@@ -72,7 +74,7 @@ script = ExtResource( 3 )
 [node name="PathMan" type="Sprite" parent="."]
 position = Vector2( 1151, -603 )
 scale = Vector2( 0.197, 0.189 )
-texture = ExtResource( 6 )
+texture = ExtResource( 20 )
 
 [node name="Area2D" type="Area2D" parent="PathMan"]
 
@@ -84,7 +86,7 @@ shape = SubResource( 2 )
 [node name="CornerMan" type="Sprite" parent="."]
 position = Vector2( -31.9999, -597 )
 scale = Vector2( 0.197, 0.189 )
-texture = ExtResource( 6 )
+texture = ExtResource( 21 )
 
 [node name="Area2D" type="Area2D" parent="CornerMan"]
 
